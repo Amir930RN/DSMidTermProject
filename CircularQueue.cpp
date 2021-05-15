@@ -32,7 +32,11 @@ bool CircularQueue::isFull() {
 
 }
 
-bool CircularQueue::isEmpty() { return !isFull(); }
+bool CircularQueue::isEmpty() {
+
+    return front == -1;
+
+}
 
 void CircularQueue::enQueue(const any& value) {
 
