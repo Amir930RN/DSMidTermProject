@@ -63,5 +63,29 @@ void CircularQueue::enQueue(const any& value) {
 
 }
 
+std::any CircularQueue::deQueue() {
+
+    if (isEmpty())
+    {
+        cout<<"Queue is empty!"<<endl;
+        return INT_MIN;
+    }
+
+    any data = elements[front];
+    elements[front] = -1;
+    if (front == rear)
+    {
+        front = -1;
+        rear = -1;
+    }
+    else if (front == size-1)
+        front = 0;
+    else
+        front++;
+
+    return data;
+
+}
+
 
 
