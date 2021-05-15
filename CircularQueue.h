@@ -14,7 +14,7 @@ public:
 
     explicit CircularQueue(int s);
     CircularQueue();
-
+    ~CircularQueue();
 
     void enQueue(int value);
     std::any deQueue();
