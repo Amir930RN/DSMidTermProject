@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="" />
+    <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircularQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/CircularQueue.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,18 +62,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="1006000" />
+      <workItem from="1621094489302" duration="2248000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1621095721101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621095721101</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add CircularQueue class">
+      <created>1621095815127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621095815127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Add CircularQueue class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CircularQueue class" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1621095720470">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1621095814499">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621095720470" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621095814499" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621094552215">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
