@@ -16,7 +16,7 @@ public:
     CircularQueue();
     ~CircularQueue();
 
-    void enQueue(int value);
+    void enQueue(const std::any& value);
     std::any deQueue();
     bool isEmpty();
     bool isFull();

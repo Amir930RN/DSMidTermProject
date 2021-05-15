@@ -1,3 +1,4 @@
+#include <iostream>
 #include "CircularQueue.h"
 
 using namespace std;
@@ -34,6 +35,31 @@ bool CircularQueue::isFull() {
 bool CircularQueue::isEmpty() {
 
     return !isFull();
+
+}
+
+void CircularQueue::enQueue(const any& value) {
+
+    if (isFull()) cout<<"error! queue is full!"<<endl;
+
+    /* Insert First Element */
+    else if (front == -1)
+    {
+        front = rear = 0;
+        elements[rear] = value;
+    }
+
+    else if (rear == size-1 && front != 0)
+    {
+        rear = 0;
+        elements[rear] = value;
+    }
+
+    else
+    {
+        rear++;
+        elements[rear] = value;
+    }
 
 }
 
