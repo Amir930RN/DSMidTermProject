@@ -87,7 +87,15 @@ std::any CircularQueue::deQueue() {
 
 }
 
-int CircularQueue::getNum() { return size; }
+int CircularQueue::getNum() {
+
+   if( isEmpty() ) return 0;
+
+   else if ( front==0 && rear==0 ) return 1;
+
+   return rear+1;
+
+}
 
 
 
