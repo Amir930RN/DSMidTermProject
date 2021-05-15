@@ -24,4 +24,18 @@ CircularQueue::~CircularQueue() {
 
 }
 
+bool CircularQueue::isFull() {
+
+    return (front == 0 && rear == size - 1) ||
+           (rear == (front - 1) % (size - 1));
+
+}
+
+bool CircularQueue::isEmpty() {
+
+    return !isFull();
+
+}
+
+
 
