@@ -32,11 +32,7 @@ bool CircularQueue::isFull() {
 
 }
 
-bool CircularQueue::isEmpty() {
-
-    return !isFull();
-
-}
+bool CircularQueue::isEmpty() { return !isFull(); }
 
 void CircularQueue::enQueue(const any& value) {
 
@@ -86,6 +82,8 @@ std::any CircularQueue::deQueue() {
     return data;
 
 }
+
+int CircularQueue::getNum() { return size; }
 
 
 
