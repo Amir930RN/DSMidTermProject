@@ -12,7 +12,7 @@ private:
 
 public:
 
-    CircularQueue(int s);
+    explicit CircularQueue(int s);
     CircularQueue();
 
 
