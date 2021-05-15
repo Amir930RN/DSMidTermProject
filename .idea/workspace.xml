@@ -14,6 +14,13 @@
     <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircularQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CircularQueue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="3589000" />
+      <workItem from="1621094489302" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -127,7 +134,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621099091855</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add deQueue method to CircularQueue.cpp">
+      <created>1621099384912</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621099384912</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add getNum method to CircularQueue.cpp">
+      <created>1621099467761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621099467761</updated>
+    </task>
+    <task id="LOCAL-00010" summary="edit isEmpty method in CircularQueue.cpp">
+      <created>1621099545240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621099545240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,28 +169,31 @@
     <MESSAGE value="add destructor to CircularQueue.h and CircularQueue.cpp" />
     <MESSAGE value="add isFull and isEmpty to CircularQueue.cpp" />
     <MESSAGE value="add enQueue method to CircularQueue.cpp&#10;edit enQueue method in CircularQueue.h and make value const any&amp;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add enQueue method to CircularQueue.cpp&#10;edit enQueue method in CircularQueue.h and make value const any&amp;" />
+    <MESSAGE value="add deQueue method to CircularQueue.cpp" />
+    <MESSAGE value="add getNum method to CircularQueue.cpp" />
+    <MESSAGE value="edit isEmpty method in CircularQueue.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit isEmpty method in CircularQueue.cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="0" key="CommitChangelistDialog2" timestamp="1621099467252">
+    <state x="375" y="0" key="CommitChangelistDialog2" timestamp="1621099544738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621099467252" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621094552215">
+    <state x="375" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621099544738" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621107528113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621094552215" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621094552215">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621107528113" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621107528113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621094552215" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621094552214">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621107528113" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621107528113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621094552214" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621094552215">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621107528113" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621107528113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621094552215" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621107528113" />
   </component>
 </project>

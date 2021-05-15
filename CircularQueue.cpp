@@ -21,7 +21,7 @@ CircularQueue::CircularQueue() {
 
 CircularQueue::~CircularQueue() {
 
-    delete elements;
+    delete[] elements;
 
 }
 
