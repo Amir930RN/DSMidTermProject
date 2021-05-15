@@ -93,7 +93,7 @@ int CircularQueue::getNum() {
 
    else if ( front==0 && rear==0 ) return 1;
 
-   return rear+1;
+   return rear-front+1;
 
 }
 

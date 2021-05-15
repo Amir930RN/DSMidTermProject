@@ -14,7 +14,6 @@
     <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircularQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CircularQueue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" afterDir="false" />
@@ -81,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="6704000" />
+      <workItem from="1621094489302" duration="7195000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621107588154</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test CircularQueue class in main.cpp &#10;edit getNum method in CircularQueue.cpp">
+      <created>1621108282882</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621108282882</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,28 +184,29 @@
     <MESSAGE value="add getNum method to CircularQueue.cpp" />
     <MESSAGE value="edit isEmpty method in CircularQueue.cpp" />
     <MESSAGE value="test CircularQueue class in main.cpp &#10;edit destructor in CircularQueue.cpp: change delete to delete[]" />
-    <option name="LAST_COMMIT_MESSAGE" value="test CircularQueue class in main.cpp &#10;edit destructor in CircularQueue.cpp: change delete to delete[]" />
+    <MESSAGE value="test CircularQueue class in main.cpp &#10;edit getNum method in CircularQueue.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="test CircularQueue class in main.cpp &#10;edit getNum method in CircularQueue.cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="0" key="CommitChangelistDialog2" timestamp="1621108114342">
+    <state x="375" y="0" key="CommitChangelistDialog2" timestamp="1621108282280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621108114342" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621108252994">
+    <state x="375" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621108282280" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621108740032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621108252994" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621108252994">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621108740032" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621108740032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621108252994" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621108252994">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621108740032" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621108740032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621108252994" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621108252994">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621108740032" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621108740032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621108252994" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621108740032" />
   </component>
 </project>
