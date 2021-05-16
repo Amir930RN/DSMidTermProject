@@ -12,19 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CounterStack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CounterStack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/CounterStack.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="12971000" />
+      <workItem from="1621094489302" duration="15688000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -208,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621126442588</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add CounterStack class to project&#10;add CounterStack.cpp and CounterStack.h to project">
+      <created>1621126819370</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1621126819370</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,13 +228,14 @@
     <MESSAGE value="separate names and counts in two different lists in rotationalScheduling function in main.cpp" />
     <MESSAGE value="implementing function with CircularQueue in rotationalScheduling function in main.cpp" />
     <MESSAGE value="create return string in rotationalScheduling function in main.cpp&#10;complete rotationalScheduling function in main.cpp&#10;test rotationalScheduling function in main.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="create return string in rotationalScheduling function in main.cpp&#10;complete rotationalScheduling function in main.cpp&#10;test rotationalScheduling function in main.cpp" />
+    <MESSAGE value="add CounterStack class to project&#10;add CounterStack.cpp and CounterStack.h to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CounterStack class to project&#10;add CounterStack.cpp and CounterStack.h to project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="0" key="CommitChangelistDialog2" timestamp="1621126441573">
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1621126818379">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="141" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621126441573" />
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621126818379" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621126298089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
