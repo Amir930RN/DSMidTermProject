@@ -46,6 +46,16 @@ string rotationalScheduling( const string& input ){
     }
     A.push_back(input.substr(start, end - start));
 
+    //separate names and counts in two different lists
+    del = " ";
+    for (auto & i : A) {
+        start = 0; end = i.find(del);
+        names.push_back( i.substr(start, end - start) );
+        start = end + del.size();
+        end = input.find(del, start);
+        counts.push_back( stoi( i.substr(start, end - start) ) );
+    }
+
 
 
 }
