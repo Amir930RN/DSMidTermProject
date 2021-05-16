@@ -76,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="16225000" />
+      <workItem from="1621094489302" duration="16489000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621166259344</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add isEmpty and isFull methods to CounterStack.cpp">
+      <created>1621166532729</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621166532729</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,13 +252,14 @@
     <MESSAGE value="add CounterStack class to project&#10;add CounterStack.cpp and CounterStack.h to project" />
     <MESSAGE value="add methods and fields to CounterStack.h" />
     <MESSAGE value="add constructors and destructor to CounterStack.cpp&#10;make first constructor explicit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add constructors and destructor to CounterStack.cpp&#10;make first constructor explicit" />
+    <MESSAGE value="add isEmpty and isFull methods to CounterStack.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add isEmpty and isFull methods to CounterStack.cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="0" key="CommitChangelistDialog2" timestamp="1621166258715">
+    <state x="492" y="0" key="CommitChangelistDialog2" timestamp="1621166532202">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621166258715" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621166532202" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621126298089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
