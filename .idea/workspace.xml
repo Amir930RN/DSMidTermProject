@@ -279,10 +279,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add private and static method isEqual to CounterStack.h and CounterStack.cpp (for comparing two any objects in pop method in CounterStack class)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1621208367090">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1621208521771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208367090" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208521771" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621207966500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

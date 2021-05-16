@@ -77,6 +77,14 @@ std::any CounterStack::pop() {
         for (int count : counts) if ( max< count ) max = count;
 
 
+        //find last most repeated value and save it
+        any ans;
+        for (int i = values.size()-1; i>=0 ; --i){
+
+            if ( max == counts[i] ) ans = values[i];
+
+        }
+
 
 
     }
