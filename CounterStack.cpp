@@ -41,6 +41,47 @@ int CounterStack::getNum() {
 
 }
 
+std::any CounterStack::pop() {
+
+    if (isEmpty()) cout << "Stack Underflow";
+    else{
+
+        //create an unrepeated list from elements
+        vector <any> values;
+        bool flag;
+        for (int i = 0; i < getNum() ; ++i) {
+            flag = false;
+            for (const auto & value : values) {
+                if ( isEqual(value,elements[i]) ) flag = true;
+            }
+            if (!flag) values.push_back(elements[i]);
+
+        }
+
+        //create another list to count each of our values in stack
+        int counts[values.size()];
+        for (int i = 0; i < values.size() ; ++i) counts[i] = 0;
+
+        for (int i = 0; i < values.size() ; ++i) {
+
+            for (int j = 0; j < getNum() ; ++j) {
+
+                if ( isEqual(values[i],elements[j]) ) counts[i]++;
+
+            }
+
+        }
+
+        //find max in counts
+        int max=counts[0] ;
+        for (int count : counts) if ( max< count ) max = count;
+
+
+
+
+    }
+
+}
 
 
 bool CounterStack::isEqual(const any &lhs, const any &rhs) {
