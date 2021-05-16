@@ -25,7 +25,6 @@ int main() {
     cout<<q1.getNum()<<endl;
 
 
-    rotationalScheduling("A 5, B 2, C 1");
 
     return 0;
 }
@@ -56,6 +55,23 @@ string rotationalScheduling( const string& input ){
         counts.push_back( stoi( i.substr(start, end - start) ) );
     }
 
+    //implementing function with CircularQueue
+    int size = 0;
+    for (int count : counts) size+=count;
+    CircularQueue queue(size);
+    int j=0;
+    for (int i = 0; i < size ; ++i) {
+
+        if ( counts[j]!=0 ){
+            counts[j]--;
+            queue.enQueue(names[j]);
+        }
+        else i--;
+
+        if( j< A.size()-1 ) j++;
+        else j=0;
+
+    }
 
 
 }

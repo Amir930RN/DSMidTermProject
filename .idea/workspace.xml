@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" afterDir="false" />
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="10881000" />
+      <workItem from="1621094489302" duration="12417000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -173,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621108777742</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add rotationalScheduling function to main.cpp&#10;split the input of rotationalScheduling function in a list">
+      <created>1621124750242</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621124750242</updated>
+    </task>
+    <task id="LOCAL-00015" summary="separate names and counts in two different lists in rotationalScheduling function in main.cpp">
+      <created>1621124959929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621124959929</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,28 +206,30 @@
     <MESSAGE value="test CircularQueue class in main.cpp &#10;edit destructor in CircularQueue.cpp: change delete to delete[]" />
     <MESSAGE value="test CircularQueue class in main.cpp &#10;edit getNum method in CircularQueue.cpp" />
     <MESSAGE value="test CircularQueue class in main.cpp &#10;edit getNum method in CircularQueue.cpp (again:D)" />
-    <option name="LAST_COMMIT_MESSAGE" value="test CircularQueue class in main.cpp &#10;edit getNum method in CircularQueue.cpp (again:D)" />
+    <MESSAGE value="add rotationalScheduling function to main.cpp&#10;split the input of rotationalScheduling function in a list" />
+    <MESSAGE value="separate names and counts in two different lists in rotationalScheduling function in main.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="separate names and counts in two different lists in rotationalScheduling function in main.cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="465" y="0" key="CommitChangelistDialog2" timestamp="1621124749631">
+    <state x="141" y="0" key="CommitChangelistDialog2" timestamp="1621126218573">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="465" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621124749631" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621124464430">
+    <state x="141" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621126218573" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621125957621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621124464430" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621124464430">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621125957621" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621125957621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621124464430" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621124464430">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621125957621" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621125957621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621124464430" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621124464430">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621125957621" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621125957621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621124464430" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621125957621" />
   </component>
 </project>
