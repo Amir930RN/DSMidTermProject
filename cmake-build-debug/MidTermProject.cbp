@@ -86,6 +86,12 @@
 		<Unit filename="E:/Amir/University/Term 4/DS/MidTermProject/CircularQueue.h">
 			<Option target="MidTermProject"/>
 		</Unit>
+		<Unit filename="E:/Amir/University/Term 4/DS/MidTermProject/CounterStack.cpp">
+			<Option target="MidTermProject"/>
+		</Unit>
+		<Unit filename="E:/Amir/University/Term 4/DS/MidTermProject/CounterStack.h">
+			<Option target="MidTermProject"/>
+		</Unit>
 		<Unit filename="E:/Amir/University/Term 4/DS/MidTermProject/main.cpp">
 			<Option target="MidTermProject"/>
 		</Unit>

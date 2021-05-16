@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Amir/University/Term 4/DS/MidTermProject/CircularQueue.cpp" "E:/Amir/University/Term 4/DS/MidTermProject/cmake-build-debug/CMakeFiles/MidTermProject.dir/CircularQueue.cpp.obj"
+  "E:/Amir/University/Term 4/DS/MidTermProject/CounterStack.cpp" "E:/Amir/University/Term 4/DS/MidTermProject/cmake-build-debug/CMakeFiles/MidTermProject.dir/CounterStack.cpp.obj"
   "E:/Amir/University/Term 4/DS/MidTermProject/main.cpp" "E:/Amir/University/Term 4/DS/MidTermProject/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

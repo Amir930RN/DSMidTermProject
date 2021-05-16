@@ -149,6 +149,33 @@ CircularQueue.cpp.s:
 	$(MAKE) -f CMakeFiles\MidTermProject.dir\build.make CMakeFiles/MidTermProject.dir/CircularQueue.cpp.s
 .PHONY : CircularQueue.cpp.s
 
+CounterStack.obj: CounterStack.cpp.obj
+
+.PHONY : CounterStack.obj
+
+# target to build an object file
+CounterStack.cpp.obj:
+	$(MAKE) -f CMakeFiles\MidTermProject.dir\build.make CMakeFiles/MidTermProject.dir/CounterStack.cpp.obj
+.PHONY : CounterStack.cpp.obj
+
+CounterStack.i: CounterStack.cpp.i
+
+.PHONY : CounterStack.i
+
+# target to preprocess a source file
+CounterStack.cpp.i:
+	$(MAKE) -f CMakeFiles\MidTermProject.dir\build.make CMakeFiles/MidTermProject.dir/CounterStack.cpp.i
+.PHONY : CounterStack.cpp.i
+
+CounterStack.s: CounterStack.cpp.s
+
+.PHONY : CounterStack.s
+
+# target to generate assembly for a file
+CounterStack.cpp.s:
+	$(MAKE) -f CMakeFiles\MidTermProject.dir\build.make CMakeFiles/MidTermProject.dir/CounterStack.cpp.s
+.PHONY : CounterStack.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... CircularQueue.obj
 	@echo ... CircularQueue.i
 	@echo ... CircularQueue.s
+	@echo ... CounterStack.obj
+	@echo ... CounterStack.i
+	@echo ... CounterStack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

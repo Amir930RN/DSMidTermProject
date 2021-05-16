@@ -3,4 +3,4 @@ project(MidTermProject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MidTermProject main.cpp CircularQueue.cpp CircularQueue.h)
+add_executable(MidTermProject main.cpp CircularQueue.cpp CircularQueue.h CounterStack.cpp CounterStack.h)
