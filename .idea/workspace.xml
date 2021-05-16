@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="" />
+    <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CounterStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CounterStack.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="28228000" />
+      <workItem from="1621094489302" duration="28616000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -236,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621208367781</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add pop method to CounterStack.cpp&#10;find the most repeated item in stack in pop method in CounterStack.cpp">
+      <created>1621208522323</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621208522323</updated>
+    </task>
+    <task id="LOCAL-00025" summary="find and store last most repeated item in stack in pop method in CounterStack.cpp">
+      <created>1621208635115</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1621208635115</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,13 +292,15 @@
     <MESSAGE value="add isEmpty and isFull methods to CounterStack.cpp" />
     <MESSAGE value="add push and getNum methods to CounterStack.cpp" />
     <MESSAGE value="add private and static method isEqual to CounterStack.h and CounterStack.cpp (for comparing two any objects in pop method in CounterStack class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add private and static method isEqual to CounterStack.h and CounterStack.cpp (for comparing two any objects in pop method in CounterStack class)" />
+    <MESSAGE value="add pop method to CounterStack.cpp&#10;find the most repeated item in stack in pop method in CounterStack.cpp" />
+    <MESSAGE value="find and store last most repeated item in stack in pop method in CounterStack.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="find and store last most repeated item in stack in pop method in CounterStack.cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1621208521771">
+    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1621208634546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208521771" />
+    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208634546" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621207966500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

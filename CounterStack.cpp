@@ -85,7 +85,25 @@ std::any CounterStack::pop() {
 
         }
 
+        //create a copy of current stack
+        CounterStack copy;
+        for (int i = 0; i < getNum() ; ++i) copy.push(elements[i]);
 
+        //return the last most repeated element and remove it from stack
+        for (int i = getNum()-1; i>=0 ; --i) {
+
+            if ( isEqual( elements[i] , ans ) ) {
+
+                //edit the stack
+                for (int j = 0; j < i ; ++j) elements[j] = copy.elements[j];
+                for (int j = i; j < getNum()-1  ; ++j)  elements[j] = copy.elements[j+1];
+                top--;
+
+                return copy.elements[i];
+
+            }
+
+        }
 
     }
 
