@@ -25,6 +25,9 @@ int main() {
     cout<<q1.getNum()<<endl;
 
 
+    cout<<rotationalScheduling("A 5, B 2, C 1")<<endl;
+    cout<<rotationalScheduling("A 2, B 3, C 2")<<endl;
+    cout<<rotationalScheduling("Pr 3")<<endl;
 
     return 0;
 }
@@ -73,5 +76,11 @@ string rotationalScheduling( const string& input ){
 
     }
 
+    string result;
+    for (int i = 0; i < size ; ++i) {
+        result+= any_cast<string> (queue.deQueue());
+        result+= " ";
+    }
+    return result;
 
 }
