@@ -19,6 +19,11 @@ CounterStack::CounterStack() {
 
 CounterStack::~CounterStack() { delete[] elements; }
 
+bool CounterStack::isEmpty() { return (top < 0); }
+
+bool CounterStack::isFull() { return top == size - 1; }
+
+
 
 
 
