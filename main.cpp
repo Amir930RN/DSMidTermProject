@@ -47,7 +47,7 @@ int main() {
 
 string rotationalScheduling( const string& input ){
 
-    vector <string> A;
+    vector <string> commands;
     vector <string> names;
     vector <int> counts;
 
@@ -55,15 +55,15 @@ string rotationalScheduling( const string& input ){
     string del = ", ";
     int start = 0, end = input.find(del);
     while (end != -1) {
-        A.push_back( input.substr(start, end - start) );
+        commands.push_back(input.substr(start, end - start) );
         start = end + del.size();
         end = input.find(del, start);
     }
-    A.push_back(input.substr(start, end - start));
+    commands.push_back(input.substr(start, end - start));
 
     //separate names and counts in two different lists
     del = " ";
-    for (auto & i : A) {
+    for (auto & i : commands) {
         start = 0; end = i.find(del);
         names.push_back( i.substr(start, end - start) );
         start = end + del.size();
@@ -84,7 +84,7 @@ string rotationalScheduling( const string& input ){
         }
         else i--;
 
-        if( j< A.size()-1 ) j++;
+        if(j < commands.size() - 1 ) j++;
         else j=0;
 
     }

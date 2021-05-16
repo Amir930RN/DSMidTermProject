@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CounterStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CounterStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="28616000" />
+      <workItem from="1621094489302" duration="29059000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -252,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621208635115</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="return the last most repeated element in stack and remove it from stack in pop method in CounterStack.cpp">
+      <created>1621208789802</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621208789802</updated>
+    </task>
+    <task id="LOCAL-00027" summary="include CounterStack.h in main.cpp and test CounterStack class">
+      <created>1621208927223</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621208927223</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,9 +282,43 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Commit" />
-    <MESSAGE value="Add CircularQueue class" />
     <MESSAGE value="add methods and fields to CircularQueue.h" />
     <MESSAGE value="define constructors in CircularQueue.cpp&#10;make CircularQueue(int s) constructor explicit" />
     <MESSAGE value="add destructor to CircularQueue.h and CircularQueue.cpp" />
@@ -294,13 +342,19 @@
     <MESSAGE value="add private and static method isEqual to CounterStack.h and CounterStack.cpp (for comparing two any objects in pop method in CounterStack class)" />
     <MESSAGE value="add pop method to CounterStack.cpp&#10;find the most repeated item in stack in pop method in CounterStack.cpp" />
     <MESSAGE value="find and store last most repeated item in stack in pop method in CounterStack.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="find and store last most repeated item in stack in pop method in CounterStack.cpp" />
+    <MESSAGE value="return the last most repeated element in stack and remove it from stack in pop method in CounterStack.cpp" />
+    <MESSAGE value="include CounterStack.h in main.cpp and test CounterStack class" />
+    <option name="LAST_COMMIT_MESSAGE" value="include CounterStack.h in main.cpp and test CounterStack class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1621208789281">
+    <state x="210" y="0" key="CommitChangelistDialog2" timestamp="1621208926575">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208789281" />
+    <state x="210" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208926575" />
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog" timestamp="1621209205382">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1621209205382" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621208858932">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -317,6 +371,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621208858932" />
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog" timestamp="1621209205382">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1621209205382" />
     <state x="93" y="91" width="1095" height="496" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621183319105">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
