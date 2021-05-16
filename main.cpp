@@ -1,8 +1,11 @@
 #include <iostream>
 #include <any>
+#include <vector>
 #include "CircularQueue.h"
 
 using namespace std;
+
+string rotationalScheduling( const string& input );
 
 int main() {
 
@@ -19,8 +22,30 @@ int main() {
     cout<<q1.isFull()<<" "<<q1.isEmpty()<<" "<<q2.isEmpty()<<" "<<q2.isFull()<<endl;
     cout<<any_cast<int>(q1.deQueue())<<endl;
     cout<<any_cast<int>(q1.deQueue())<<endl;
-    cout<<q1.getNum();
+    cout<<q1.getNum()<<endl;
 
+
+    rotationalScheduling("A 5, B 2, C 1");
 
     return 0;
+}
+
+string rotationalScheduling( const string& input ){
+
+    vector <string> A;
+    vector <string> names;
+    vector <int> counts;
+
+    //split the input with "," and add words to a list
+    string del = ", ";
+    int start = 0, end = input.find(del);
+    while (end != -1) {
+        A.push_back( input.substr(start, end - start) );
+        start = end + del.size();
+        end = input.find(del, start);
+    }
+    A.push_back(input.substr(start, end - start));
+
+
+
 }
