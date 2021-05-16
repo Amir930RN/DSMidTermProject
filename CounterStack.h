@@ -8,14 +8,14 @@ class CounterStack {
 private:
 
     int top;
-    std::any * elements;
+    std::any * elements{};
     int size;
 
 public:
 
-    CounterStack ( int s);
-    CounterStack ( );
-    ~CounterStack ( );
+    explicit CounterStack ( int s);
+    CounterStack ();
+    ~CounterStack ();
 
     void push(const std::any& value);
     std::any pop();
