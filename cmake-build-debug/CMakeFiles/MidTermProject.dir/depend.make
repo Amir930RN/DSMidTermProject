@@ -4,6 +4,10 @@
 CMakeFiles/MidTermProject.dir/CircularQueue.cpp.obj: ../CircularQueue.cpp
 CMakeFiles/MidTermProject.dir/CircularQueue.cpp.obj: ../CircularQueue.h
 
+CMakeFiles/MidTermProject.dir/CounterStack.cpp.obj: ../CounterStack.cpp
+CMakeFiles/MidTermProject.dir/CounterStack.cpp.obj: ../CounterStack.h
+
 CMakeFiles/MidTermProject.dir/main.cpp.obj: ../CircularQueue.h
+CMakeFiles/MidTermProject.dir/main.cpp.obj: ../CounterStack.h
 CMakeFiles/MidTermProject.dir/main.cpp.obj: ../main.cpp
 

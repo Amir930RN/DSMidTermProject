@@ -9,7 +9,7 @@ string rotationalScheduling( const string& input );
 
 int main() {
 
-    any o = 1;
+    any o = 1, oo =1;
     int i = any_cast<int>(o);
 
     CircularQueue q1 (4);

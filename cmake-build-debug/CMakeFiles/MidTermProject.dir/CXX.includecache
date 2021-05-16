@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/Amir/University/Term 4/DS/MidTermProject/CircularQueue.h
-any
--
-
-E:/Amir/University/Term 4/DS/MidTermProject/main.cpp
+E:/Amir/University/Term 4/DS/MidTermProject/CounterStack.cpp
 iostream
 -
-any
--
+CounterStack.h
+E:/Amir/University/Term 4/DS/MidTermProject/CounterStack.h
 vector
 -
-CircularQueue.h
-E:/Amir/University/Term 4/DS/MidTermProject/CircularQueue.h
+
+E:/Amir/University/Term 4/DS/MidTermProject/CounterStack.h
+any
+-
 

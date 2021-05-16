@@ -11,6 +11,8 @@ private:
     std::any * elements{};
     int size;
 
+    static bool isEqual(const std::any& lhs, const std::any& rhs);
+
 public:
 
     explicit CounterStack ( int s);

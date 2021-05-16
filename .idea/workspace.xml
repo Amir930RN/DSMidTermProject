@@ -14,6 +14,14 @@
     <list default="true" id="8395cef0-9e59-401a-b614-1bdc46d8f36e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CounterStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CounterStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CounterStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/CounterStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MidTermProject.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MidTermProject.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621094487551</updated>
-      <workItem from="1621094489302" duration="16489000" />
+      <workItem from="1621094489302" duration="27856000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1621095721101</created>
@@ -225,11 +233,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621166532729</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add push and getNum methods to CounterStack.cpp">
+      <created>1621166735434</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621166735434</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
@@ -253,28 +278,37 @@
     <MESSAGE value="add methods and fields to CounterStack.h" />
     <MESSAGE value="add constructors and destructor to CounterStack.cpp&#10;make first constructor explicit" />
     <MESSAGE value="add isEmpty and isFull methods to CounterStack.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add isEmpty and isFull methods to CounterStack.cpp" />
+    <MESSAGE value="add push and getNum methods to CounterStack.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add push and getNum methods to CounterStack.cpp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="0" key="CommitChangelistDialog2" timestamp="1621166532202">
+    <state x="492" y="0" key="CommitChangelistDialog2" timestamp="1621208216019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621166532202" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621126298089">
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621208216019" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1621207966500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621126298089" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621126298088">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621207966500" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1621207966500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621126298088" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621126298088">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621207966500" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1621207966500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621126298088" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621126298089">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621207966500" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1621207966500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621126298089" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621207966500" />
+    <state x="93" y="91" width="1095" height="496" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621183319105">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="91" width="1095" height="496" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1621183319105" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1621183319105">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1621183319105" />
   </component>
 </project>
