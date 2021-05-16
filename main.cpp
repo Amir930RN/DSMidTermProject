@@ -2,6 +2,7 @@
 #include <any>
 #include <vector>
 #include "CircularQueue.h"
+#include "CounterStack.h"
 
 using namespace std;
 
@@ -28,6 +29,18 @@ int main() {
     cout<<rotationalScheduling("A 5, B 2, C 1")<<endl;
     cout<<rotationalScheduling("A 2, B 3, C 2")<<endl;
     cout<<rotationalScheduling("Pr 3")<<endl;
+
+    CounterStack c1;
+    c1.push(5);
+    c1.push(5);
+    c1.push(5);
+    c1.push(5);
+    c1.push(2);
+
+    cout<<c1.getNum()<<endl;
+    cout<<any_cast<int>(c1.pop())<<endl;
+    cout<<c1.getNum()<<endl;
+
 
     return 0;
 }
