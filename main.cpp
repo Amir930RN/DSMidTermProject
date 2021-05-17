@@ -41,6 +41,24 @@ int main() {
     cout<<any_cast<int>(c1.pop())<<endl;
     cout<<c1.getNum()<<endl;
 
+    cout<<any_cast<int>(c1.pop())<<endl;
+    cout<<any_cast<int>(c1.pop())<<endl;
+    cout<<any_cast<int>(c1.pop())<<endl;
+    cout<<any_cast<int>(c1.pop())<<endl;
+    cout<<c1.getNum()<<endl;
+
+    CounterStack c2;
+    c2.push(1);
+    c2.push(1);
+    c2.push(2);
+    c2.push(2);
+    c2.push(1);
+    cout<<any_cast<int>(c2.pop())<<endl;
+    cout<<any_cast<int>(c2.pop())<<endl;
+    cout<<any_cast<int>(c2.pop())<<endl;
+    cout<<any_cast<int>(c2.pop())<<endl;
+    cout<<any_cast<int>(c2.pop())<<endl;
+    cout<<c2.getNum()<<endl;
 
     return 0;
 }

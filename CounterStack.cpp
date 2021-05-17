@@ -81,7 +81,7 @@ std::any CounterStack::pop() {
         any ans;
         for (int i = values.size()-1; i>=0 ; --i){
 
-            if ( max == counts[i] ) ans = values[i];
+            if ( max == counts[i] ) {ans = values[i]; break; }
 
         }
 
